@@ -121,7 +121,7 @@ main h1 {
 main h2 {
   font-family: var(--fonte-android);
   font-weight: normal;
-  color: #cccc;
+  color: #ffffffcc;
   font-size: 1.3em;
   padding: 10px;
   background-image: linear-gradient(to right, var(--cor3), transparent);
@@ -177,6 +177,8 @@ aside{
 aside > ul{
   list-style-position: inside;
   columns: 2;
+  gap: 10px;
+  font-size: 0.9em;
 }
 
 aside > h3{
