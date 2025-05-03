@@ -223,3 +223,9 @@ footer a:hover{
   text-decoration: underline;
   transition: .5s
 }
+
+@media (max-width: 768px) {
+  aside > ul {
+    columns: 1;
+  }
+}
